@@ -1,39 +1,69 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# [Start Bootstrap - Business Casual](https://startbootstrap.com/themes/business-casual/)
 
-Welcome DanArmstrong124,
+[Business Casual](https://startbootstrap.com/themes/business-casual/) is a multipurpose website theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features a landing page, about page, blog page, and a contact page along with various custom styles and components.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+## Preview
 
-## Gitpod Reminders
+[![Business Casual Preview](https://startbootstrap.com/assets/img/screenshots/themes/business-casual.png)](https://startbootstrap.github.io/startbootstrap-business-casual/)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+**[View Live Preview](https://startbootstrap.github.io/startbootstrap-business-casual/)**
 
-`python3 -m http.server`
+## Status
 
-A blue button should appear to click: *Make Public*,
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-business-casual/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/startbootstrap-business-casual.svg)](https://www.npmjs.com/package/startbootstrap-business-casual)
+[![Build Status](https://travis-ci.org/StartBootstrap/startbootstrap-business-casual.svg?branch=master)](https://travis-ci.org/StartBootstrap/startbootstrap-business-casual)
+[![dependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-business-casual/status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-business-casual)
+[![devDependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-business-casual/dev-status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-business-casual?type=dev)
 
-Another blue button should appear to click: *Open Browser*.
+## Download and Installation
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+To begin using this template, choose one of the following options to get started:
 
-A blue button should appear to click: *Make Public*,
+* [Download the latest release on Start Bootstrap](https://startbootstrap.com/themes/business-casual/)
+* Install via npm: `npm i startbootstrap-business-casual`
+* Clone the repo: `git clone https://github.com/StartBootstrap/startbootstrap-business-casual.git`
+* [Fork, Clone, or Download on GitHub](https://github.com/StartBootstrap/startbootstrap-business-casual)
 
-Another blue button should appear to click: *Open Browser*.
+## Usage
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+### Basic Usage
 
-## Updates Since The Instructional Video
+After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+### Advanced Usage
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+After installation, run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+#### Gulp Tasks
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+* `gulp` the default task that builds everything
+* `gulp watch` browserSync opens the project in your default browser and live reloads when changes are made
+* `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
+* `gulp js` minifies the themes JS file
+* `gulp vendor` copies dependencies from node_modules to the vendor directory
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+You must have npm installed globally in order to use this build environment.
 
---------
+## Bugs and Issues
 
-Happy coding!
+Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-business-casual/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](https://startbootstrap.com/themes/business-casual/).
+
+## About
+
+Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+
+* <https://startbootstrap.com>
+* <https://twitter.com/SBootstrap>
+
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**.
+
+* <http://davidmiller.io>
+* <https://twitter.com/davidmillerskt>
+* <https://github.com/davidtmiller>
+
+Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
+## Copyright and License
+
+Copyright 2013-2020 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-business-casual/blob/gh-pages/LICENSE) license.
